@@ -1,9 +1,11 @@
-import React from "react";
-// import MainContentAnimation from "./MainContentAnimation";
-// import { Container } from "react-bootstrap";
-import MainLayout from "./MainLayout.tsx";
-export default function Page(props) {
-  const { children } = props;
+
+import MainLayout from "../Layout/MainLayout";
+
+interface Children {
+  children: string;
+}
+
+export default function Page({children}:Children) {
   return (
     <>
       <MainLayout>{children}</MainLayout>

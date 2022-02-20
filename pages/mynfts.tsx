@@ -1,8 +1,6 @@
-import React from "react";
-import MainLayout from "./Layout/MainLayout.tsx";
 import { Row, Col, Button, DropdownButton, Form, Modal } from "react-bootstrap";
 import Slider from "react-slick";
-import MasterCard from "./Component/MasterCard.tsx";
+import MasterCard from "./Component/MasterCard";
 import charactermodel from "./assets/image/character-model.png";
 import Common from "./assets/gif/Common.gif";
 import Epic from "./assets/gif/Epic.gif";
@@ -10,8 +8,9 @@ import Legendary from "./assets/gif/Legendary.gif";
 import low_rare from "./assets/gif/Mythic.gif";
 import Mythic from "./assets/gif/low-rare.gif";
 import Rare from "./assets/gif/Rare.gif";
-import LayoutHeader from "./Component/LayoutHeader.tsx";
-import Page from "./Layout/Page.tsx";
+import LayoutHeader from "./Component/LayoutHeader";
+import Page from "./Layout/Page";
+
 export default function MyNFTS() {
   var settings = {
     dots: false,
@@ -169,14 +168,14 @@ export default function MyNFTS() {
           <Slider className="Single-card-sliders pb-5" {...settings}>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Rare}
                     Character={charactermodel}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Mythic}
                     Character={charactermodel}
@@ -187,14 +186,14 @@ export default function MyNFTS() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={low_rare}
                     Character={charactermodel}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Legendary}
                     Character={charactermodel}
@@ -205,14 +204,14 @@ export default function MyNFTS() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Epic}
                     Character={charactermodel}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Common}
                     Character={charactermodel}
@@ -223,14 +222,14 @@ export default function MyNFTS() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Epic}
                     Character={charactermodel}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Legendary}
                     Character={charactermodel}
@@ -241,14 +240,14 @@ export default function MyNFTS() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={low_rare}
                     Character={charactermodel}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Mythic}
                     Character={charactermodel}
@@ -259,14 +258,14 @@ export default function MyNFTS() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Rare}
                     Character={charactermodel}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Epic}
                     Character={charactermodel}
@@ -277,14 +276,14 @@ export default function MyNFTS() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Mythic}
                     Character={charactermodel}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={low_rare}
                     Character={charactermodel}

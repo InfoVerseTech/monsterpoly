@@ -1,8 +1,6 @@
-import React from "react";
-import MainLayout from "../../Layout/MainLayout.tsx";
 import { Row, Col, Button, DropdownButton, Form, Modal } from "react-bootstrap";
 import Slider from "react-slick";
-import MasterCard from "../../Component/MasterCard.tsx";
+import MasterCard from "./Component/MasterCard";
 import charactermodel from "../../assets/image/character-model.png";
 import Common from "../../assets/gif/Common.gif";
 import Epic from "../../assets/gif/Epic.gif";
@@ -10,8 +8,9 @@ import Legendary from "../../assets/gif/Legendary.gif";
 import low_rare from "../../assets/gif/Mythic.gif";
 import Mythic from "../../assets/gif/low-rare.gif";
 import Rare from "../../assets/gif/Rare.gif";
-import LayoutHeader from "../../Component/LayoutHeader.tsx";
-import Page from "../../Layout/Page.tsx";
+import LayoutHeader from "./Component/LayoutHeader";
+import Page from "./Layout/Page";
+
 export default function Marketplace() {
   var settings = {
     dots: false,

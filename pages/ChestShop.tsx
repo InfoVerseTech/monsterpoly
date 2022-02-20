@@ -1,7 +1,8 @@
 import React from "react";
-import LayoutHeader from "../../Component/LayoutHeader.tsx";
-import ChesBox from "./ChesBox.tsx";
-import Page from "../../Layout/Page.tsx";
+import LayoutHeader from "./Component/LayoutHeader";
+import ChesBox from "./Component/ChesBox";
+import Page from "./Layout/Page";
+
 export default function ChestShop() {
   return (
     <>

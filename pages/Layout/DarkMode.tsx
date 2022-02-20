@@ -1,6 +1,10 @@
-import React from "react";
 import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
-export default function DarkMode(props) {
+
+interface Children {
+  children: string;
+}
+
+export default function DarkMode({children}:Children) {
   const toggleTheme = e => {
     const { checked } = e.target;
     if (checked) {

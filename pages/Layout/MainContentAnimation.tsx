@@ -1,6 +1,8 @@
-import React from "react";
-export default function MainContentAnimation(props) {
-  const { Animichildren } = props;
+interface Children {
+  children: string;
+}
+export default function MainContentAnimation({children}:Children) {
+
   return (
     <>
       <div id="stars"></div>

@@ -1,14 +1,17 @@
-import { React, useState } from "react";
-import { Container, Button, Modal, Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import Header from "./Header.tsx";
-import Sidebar from "./Sidebar.tsx";
-import MainContentAnimation from "./MainContentAnimation.tsx";
+import { Container, Button, Modal } from "react-bootstrap";
+import Header from "../Layout/Header";
+import Sidebar from "../Layout/Sidebar";
+import MainContentAnimation from "../Layout/MainContentAnimation";
 import WellcomeGif from "../assets/gif/wellcome.gif";
 import MetaMask_Fox from "../assets/image/MetaMask_Fox.svg";
 import WaletIcon from "../assets/image/walleteconecticons.svg";
-export default function MainLayout(props) {
-  const { children } = props;
+import Image from 'next/image';
+
+interface Children {
+  children: string;
+}
+export default function MainLayout({children}:Children) {
+
   const [show, setShow] = useState(true);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -24,7 +27,7 @@ export default function MainLayout(props) {
             <Container fluid>{children}</Container>
           </div>
           <Modal
-            show={show}
+            // show={show}
             onHide={handleClose}
             backdrop="static"
             keyboard={false}

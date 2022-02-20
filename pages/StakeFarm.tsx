@@ -1,11 +1,11 @@
-import React from "react";
-import { Row, Col, Card, Button, Image, Form } from "react-bootstrap";
+import { Row, Col, Card, Button, Form } from "react-bootstrap";
+import Image from 'next/Image';
 import MGOLD2 from "../../assets/image/MGOLD2.png";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { BsX } from "react-icons/bs";
 import stackCharacter from "../../assets/image/stackCharacter.png";
-import LayoutHeader from "../../Component/LayoutHeader.tsx";
-import Page from "../../Layout/Page.tsx";
+import LayoutHeader from "./Component/LayoutHeader";
+import Page from "./Layout/Page";
 export default function StakeFarm() {
   return (
     <Page>

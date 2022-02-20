@@ -1,21 +1,21 @@
-import { React, useState } from "react";
-import ReactDOM from "react-dom";
+import {useState} from 'react';
 import {
   Container,
   Navbar,
   Nav,
-  Image,
   Button,
   Offcanvas
 } from "react-bootstrap";
+import Image from 'next/Image';
 import Logo from "../assets/image/Logo.png";
 import LogoMobile from "../assets/image/LogoMobile.png";
 import Mgold from "../assets/image/mgold.svg";
 import Mgold2 from "../assets/image/mpoly.svg";
 import UserIcon from "../assets/image/stackCharacter.png";
 import { FaIndent } from "react-icons/fa";
-import Sidebar from "../Layout/Sidebar.tsx";
+import Sidebar from "../Layout/Sidebar";
 import { BsBoxArrowUpRight } from "react-icons/bs";
+
 function Header() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);

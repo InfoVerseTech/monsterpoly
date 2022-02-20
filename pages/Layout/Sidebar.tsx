@@ -1,5 +1,3 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
 import {
   FaChessQueen,
   FaGift,
@@ -11,11 +9,13 @@ import {
   FaTelegram,
   FaSun,
   FaMoon,
-  FaCog
+  FaCog,
 } from "react-icons/fa";
 import { Nav, Row, Col } from "react-bootstrap";
-import DarkMode from "./DarkMode.tsx";
+import DarkMode from "../Layout/DarkMode";
 import { BsDiscord } from "react-icons/bs";
+import Link from "next/link";
+
 export default function Sidebar() {
   return (
     <>
@@ -23,76 +23,47 @@ export default function Sidebar() {
         <div className="sidebar-menu">
           <Nav className="flex-column">
             <Nav.Item className="item">
-              <NavLink
-                to="/mynfts"
-                className={props => {
-                  return `${props.isActive ? "active " : ""}nav-link menu-btn`;
-                }}
-              >
+              <Link href="/mynfts">
                 <FaChessQueen className="sidebar-icons" />
                 <span>MY NFTS</span>
-              </NavLink>
+              </Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <NavLink
-                to="/chestshop"
-                className={props => {
-                  return `${props.isActive ? "active " : ""}nav-link menu-btn`;
-                }}
-              >
+              <Link href="/chestshop" className="nav-link menu-btn">
                 <FaGift className="sidebar-icons" />
                 <span>CHEST SHOP</span>
-              </NavLink>
+              </Link>
             </Nav.Item>
+
             <Nav.Item className="item">
-              <NavLink
-                to="/marketplace"
-                className={props => {
-                  return `${props.isActive ? "active " : ""}nav-link menu-btn`;
-                }}
-              >
-                <FaLandmark className="sidebar-icons" />
+              <Link href="/marketplace" className="nav-link menu-btn">
+              <FaLandmark className="sidebar-icons" />
                 <span>MARKETPLACE</span>
-              </NavLink>
+              </Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <NavLink
-                to="/training"
-                className={props => {
-                  return `${props.isActive ? "active " : ""}nav-link menu-btn`;
-                }}
-              >
-                <FaAngleDoubleUp className="sidebar-icons" />
+              <Link href="/training" className="nav-link menu-btn">
+              <FaAngleDoubleUp className="sidebar-icons" />
                 <span>TRAINING</span>
-              </NavLink>
+              </Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <NavLink
-                to="/stakefarm"
-                className={props => {
-                  return `${props.isActive ? "active " : ""}nav-link menu-btn`;
-                }}
-              >
-                <FaCoins className="sidebar-icons" />
+              <Link href="/stakefarm" className="nav-link menu-btn">
+              <FaCoins className="sidebar-icons" />
                 <span>STAKE / FARM</span>
-              </NavLink>
+              </Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <NavLink
-                to="/fusion"
-                className={props => {
-                  return `${props.isActive ? "active " : ""}nav-link menu-btn`;
-                }}
-              >
-                <FaBolt className="sidebar-icons" />
+              <Link href="/fusion" className="nav-link menu-btn">
+              <FaBolt className="sidebar-icons" />
                 <span>FUSION</span>
-              </NavLink>
+              </Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Nav.Link className="nav-link menu-btn">
-                <FaCog className="sidebar-icons" />
+              <Link href="/stakefarm" className="nav-link menu-btn">
+              <FaCog className="sidebar-icons" />
                 <span>setting</span>
-              </Nav.Link>
+              </Link>
             </Nav.Item>
           </Nav>
           <div className="sidebar-footer">
@@ -124,7 +95,7 @@ export default function Sidebar() {
               </Col>
               <Col className="pe-0 sidfotlang">
                 <div className="py-1">
-                  <div class="d-flex justify-content-between align-items-center">
+                  <div className="d-flex justify-content-between align-items-center">
                     <div>
                       <FaSun className="color-white" />
                     </div>
