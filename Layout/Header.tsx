@@ -1,22 +1,16 @@
 import {useState} from 'react';
-import {
-  Container,
-  Navbar,
-  Nav,
-  Button,
-  Offcanvas
-} from "react-bootstrap";
-import Image from 'next/Image';
+import { Container, Navbar, Nav, Button, Offcanvas } from "react-bootstrap";
+import Image from 'next/image';
 import Logo from "../assets/image/Logo.png";
 import LogoMobile from "../assets/image/LogoMobile.png";
 import Mgold from "../assets/image/mgold.svg";
 import Mgold2 from "../assets/image/mpoly.svg";
 import UserIcon from "../assets/image/stackCharacter.png";
 import { FaIndent } from "react-icons/fa";
-import Sidebar from "../Layout/Sidebar";
+import Sidebar from "./Sidebar";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
-function Header() {
+const Header = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -99,4 +93,5 @@ function Header() {
     </>
   );
 }
+
 export default Header;

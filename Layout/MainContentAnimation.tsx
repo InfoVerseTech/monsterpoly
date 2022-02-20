@@ -1,8 +1,8 @@
 interface Children {
   children: string;
 }
-export default function MainContentAnimation({children}:Children) {
 
+const MainContentAnimation = ({children}:Children) => {
   return (
     <>
       <div id="stars"></div>
@@ -11,3 +11,5 @@ export default function MainContentAnimation({children}:Children) {
     </>
   );
 }
+
+export default MainContentAnimation;

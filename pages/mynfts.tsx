@@ -1,15 +1,16 @@
+import { useState } from 'react';
 import { Row, Col, Button, DropdownButton, Form, Modal } from "react-bootstrap";
 import Slider from "react-slick";
-import MasterCard from "./Component/MasterCard";
-import charactermodel from "./assets/image/character-model.png";
-import Common from "./assets/gif/Common.gif";
-import Epic from "./assets/gif/Epic.gif";
-import Legendary from "./assets/gif/Legendary.gif";
-import low_rare from "./assets/gif/Mythic.gif";
-import Mythic from "./assets/gif/low-rare.gif";
-import Rare from "./assets/gif/Rare.gif";
-import LayoutHeader from "./Component/LayoutHeader";
-import Page from "./Layout/Page";
+import MasterCard from "../Component/MasterCard";
+import charactermodel from "../assets/image/character-model.png";
+import Common from "../assets/gif/Common.gif";
+import Epic from "../assets/gif/Epic.gif";
+import Legendary from "../assets/gif/Legendary.gif";
+import low_rare from "../assets/gif/Mythic.gif";
+import Mythic from "../assets/gif/low-rare.gif";
+import Rare from "../assets/gif/Rare.gif";
+import LayoutHeader from "../Component/LayoutHeader";
+import Page from "../Layout/Page";
 
 export default function MyNFTS() {
   var settings = {
@@ -46,7 +47,7 @@ export default function MyNFTS() {
       }
     ]
   };
-  const [modalShow, setModalShow] = React.useState(false);
+  const [modalShow, setModalShow] = useState(false);
   return (
     <Page>
       <Row className="d-block d-sm-block d-md-block d-lg-none">

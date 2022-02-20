@@ -4,7 +4,7 @@ interface Children {
   children: string;
 }
 
-export default function DarkMode({children}:Children) {
+const DarkMode = ({children}:Children) => {
   const toggleTheme = e => {
     const { checked } = e.target;
     if (checked) {
@@ -37,3 +37,6 @@ export default function DarkMode({children}:Children) {
     </div>
   );
 }
+
+
+export default DarkMode;

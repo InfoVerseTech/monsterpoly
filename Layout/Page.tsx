@@ -1,14 +1,15 @@
-
-import MainLayout from "../Layout/MainLayout";
+import MainLayout from "./MainLayout";
 
 interface Children {
   children: string;
 }
 
-export default function Page({children}:Children) {
+const Page = ({children}:Children) => {
   return (
     <>
       <MainLayout>{children}</MainLayout>
     </>
   );
 }
+
+export default Page;

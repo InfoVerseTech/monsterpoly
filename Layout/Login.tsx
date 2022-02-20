@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "next/link";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import WellcomeGif from "../assets/gif/wellcome.gif";
 import MetaMask_Fox from "../assets/image/MetaMask_Fox.svg";
-export default function Login() {
+
+const Login = () => {
   return (
     <div className="loginpage">
       <Container fluid>
@@ -30,3 +31,5 @@ export default function Login() {
     </div>
   );
 }
+
+export default Login;

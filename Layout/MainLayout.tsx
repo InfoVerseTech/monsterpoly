@@ -1,7 +1,8 @@
+import { useState } from 'react';
 import { Container, Button, Modal } from "react-bootstrap";
-import Header from "../Layout/Header";
-import Sidebar from "../Layout/Sidebar";
-import MainContentAnimation from "../Layout/MainContentAnimation";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
+import MainContentAnimation from "./MainContentAnimation";
 import WellcomeGif from "../assets/gif/wellcome.gif";
 import MetaMask_Fox from "../assets/image/MetaMask_Fox.svg";
 import WaletIcon from "../assets/image/walleteconecticons.svg";
@@ -10,7 +11,8 @@ import Image from 'next/image';
 interface Children {
   children: string;
 }
-export default function MainLayout({children}:Children) {
+
+const MainLayout = ({children}:Children) => {
 
   const [show, setShow] = useState(true);
   const handleClose = () => setShow(false);
@@ -62,3 +64,5 @@ export default function MainLayout({children}:Children) {
     </>
   );
 }
+
+export default MainLayout;
