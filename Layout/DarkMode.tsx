@@ -1,7 +1,7 @@
 import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 
 interface Children {
-  children: string;
+  children: any;
 }
 
 const DarkMode = ({children}:Children) => {

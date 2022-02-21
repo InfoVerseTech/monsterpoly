@@ -9,7 +9,7 @@ import WaletIcon from "../assets/image/walleteconecticons.svg";
 import Image from 'next/image';
 
 interface Children {
-  children: string;
+  children: any;
 }
 
 const MainLayout = ({children}:Children) => {

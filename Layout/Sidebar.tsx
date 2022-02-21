@@ -12,45 +12,59 @@ const Sidebar = () => {
           <Nav className="flex-column">
             <Nav.Item className="item">
               <Link href="/mynfts">
+                <Nav.Link className="menu-btn">
                 <FaChessQueen className="sidebar-icons" />
                 <span>MY NFTS</span>
+                </Nav.Link>
               </Link>
             </Nav.Item>
             <Nav.Item className="item">
               <Link href="/chestshop" className="nav-link menu-btn">
+                <Nav.Link className="menu-btn">
                 <FaGift className="sidebar-icons" />
                 <span>CHEST SHOP</span>
+                </Nav.Link>
               </Link>
             </Nav.Item>
 
             <Nav.Item className="item">
               <Link href="/marketplace" className="nav-link menu-btn">
-              <FaLandmark className="sidebar-icons" />
+                <Nav.Link className="menu-btn">
+                <FaLandmark className="sidebar-icons" />
                 <span>MARKETPLACE</span>
+                </Nav.Link>
               </Link>
             </Nav.Item>
             <Nav.Item className="item">
               <Link href="/training" className="nav-link menu-btn">
-              <FaAngleDoubleUp className="sidebar-icons" />
+                <Nav.Link className="menu-btn">
+                <FaAngleDoubleUp className="sidebar-icons" />
                 <span>TRAINING</span>
-              </Link>
+                </Nav.Link>
+                </Link>
             </Nav.Item>
             <Nav.Item className="item">
               <Link href="/stakefarm" className="nav-link menu-btn">
-              <FaCoins className="sidebar-icons" />
+                <Nav.Link className="menu-btn">
+                <FaCoins className="sidebar-icons" />
                 <span>STAKE / FARM</span>
+                </Nav.Link>
               </Link>
             </Nav.Item>
             <Nav.Item className="item">
               <Link href="/fusion" className="nav-link menu-btn">
-              <FaBolt className="sidebar-icons" />
+                <Nav.Link className="menu-btn">
+                <FaBolt className="sidebar-icons" />
                 <span>FUSION</span>
+                </Nav.Link>
               </Link>
             </Nav.Item>
             <Nav.Item className="item">
               <Link href="/stakefarm" className="nav-link menu-btn">
-              <FaCog className="sidebar-icons" />
+                <Nav.Link className="menu-btn">
+                <FaCog className="sidebar-icons" />
                 <span>setting</span>
+                </Nav.Link>
               </Link>
             </Nav.Item>
           </Nav>

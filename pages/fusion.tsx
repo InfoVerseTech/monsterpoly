@@ -1,7 +1,7 @@
 import { Row, Col, Button } from "react-bootstrap";
-import MonsterCard from "./Component/MonsterCard";
-import LayoutHeader from "./Component/LayoutHeader";
-import Page from "./Layout/Page";
+import MonsterCard from "../Component/MonsterCard";
+import LayoutHeader from "../Component/LayoutHeader";
+import Page from "../Layout/Page";
 export default function Fusion() {
   return (
     <Page>
