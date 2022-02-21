@@ -9,7 +9,8 @@ import ChestOrangebw2 from "../assets/image/ChestOrangebw2.png";
 import mpoly from "../assets/image/mpoly.svg";
 import stackCharacter from "../assets/image/stackCharacter.png";
 import { FaPlus } from "react-icons/fa";
-export default function ChesBox() {
+
+const ChesBox = () => {
   return (
     <>
       <Row className="d-flex justify-content-center align-items-center pb-5">
@@ -188,3 +189,6 @@ export default function ChesBox() {
     </>
   );
 }
+
+
+export default ChesBox;

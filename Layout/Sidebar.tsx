@@ -1,22 +1,10 @@
-import {
-  FaChessQueen,
-  FaGift,
-  FaLandmark,
-  FaAngleDoubleUp,
-  FaCoins,
-  FaBolt,
-  FaTwitterSquare,
-  FaTelegram,
-  FaSun,
-  FaMoon,
-  FaCog,
-} from "react-icons/fa";
+import { FaChessQueen, FaGift, FaLandmark, FaAngleDoubleUp, FaCoins, FaBolt, FaTwitterSquare, FaTelegram, FaSun, FaMoon, FaCog } from "react-icons/fa";
 import { Nav, Row, Col } from "react-bootstrap";
-import DarkMode from "../Layout/DarkMode";
+import DarkMode from "./DarkMode";
 import { BsDiscord } from "react-icons/bs";
 import Link from "next/link";
 
-export default function Sidebar() {
+const Sidebar = () => {
   return (
     <>
       <div className="sidebar mobile-side-menu">
@@ -115,3 +103,5 @@ export default function Sidebar() {
     </>
   );
 }
+
+export default Sidebar;

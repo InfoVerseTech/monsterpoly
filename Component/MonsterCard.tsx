@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
-export default function MonsterCard(props) {
+
+const MonsterCard = (props) => {
   return (
     <div>
       <div className="mostercards">
@@ -20,3 +21,5 @@ export default function MonsterCard(props) {
     </div>
   );
 }
+
+export default MonsterCard;

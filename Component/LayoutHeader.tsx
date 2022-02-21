@@ -1,19 +1,10 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  Button,
-  Dropdown,
-  DropdownButton,
-  Form,
-  Image
-} from "react-bootstrap";
+import { Container, Row, Col, Card, Button, Dropdown, DropdownButton, Form, Image } from "react-bootstrap";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import BuyButtonLogo from "../assets/image/mpoly.svg";
 import { FaTimes } from "react-icons/fa";
-export default function LayoutHeader(props) {
+
+const LayoutHeader = (props) => {
   return (
     <div>
       <Row className="d-flex justify-content-between align-items-center mb-3">
@@ -48,3 +39,5 @@ export default function LayoutHeader(props) {
     </div>
   );
 }
+
+export default LayoutHeader;

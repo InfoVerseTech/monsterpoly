@@ -3,7 +3,8 @@ import { Row, Col, Card, Button, Image } from "react-bootstrap";
 import { FaDumbbell, FaHeart, FaShieldAlt } from "react-icons/fa";
 import { GrTarget } from "react-icons/gr";
 import masterline from "../assets/image/masterline.png";
-export default function MasterCard(props) {
+
+const MasterCard = (props) => {
   const { MasterBg = require() } = props;
   return (
     <>
@@ -62,3 +63,5 @@ export default function MasterCard(props) {
     </>
   );
 }
+
+export default MasterCard;

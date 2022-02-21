@@ -1,7 +1,8 @@
 import React from "react";
 import { Row, Col, Button } from "react-bootstrap";
-import MonsterCard from "./MonsterCard.tsx";
-export default function TrainiSmallCard() {
+import MonsterCard from "./MonsterCard";
+
+const TrainiSmallCard = () => {
   return (
     <>
       <Row className="training-mostercards m-1 py-1 px-2">
@@ -38,3 +39,5 @@ export default function TrainiSmallCard() {
     </>
   );
 }
+
+export default TrainiSmallCard;
