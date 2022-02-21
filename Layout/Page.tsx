@@ -1,7 +1,7 @@
 import MainLayout from "./MainLayout";
 
 interface Children {
-  children: string;
+  children: any;
 }
 
 const Page = ({children}:Children) => {

@@ -1,5 +1,5 @@
 interface Children {
-  children: string;
+  children: any;
 }
 
 const MainContentAnimation = ({children}:Children) => {

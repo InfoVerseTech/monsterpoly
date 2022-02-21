@@ -23,7 +23,7 @@ const Login = () => {
             <br />
 
             <Link className="Logpage-btn btn" to="/mynfts">
-              WALLET CONNECT
+              <p>WALLET CONNECT</p>
             </Link>
           </Col>
         </Row>

@@ -1,8 +1,8 @@
 import Slider from "react-slick";
 import { Row, Col } from "react-bootstrap";
-import TrainiSmallCard from "./TrainiSmallCard.tsx";
-import LayoutHeader from "../../Component/LayoutHeader.tsx";
-import Page from "../../Layout/Page.tsx";
+import TrainiSmallCard from "../Component/TrainiSmallCard";
+import LayoutHeader from "../Component/LayoutHeader";
+import Page from "../Layout/Page";
 export default function Training() {
   var settings = {
     dots: false,

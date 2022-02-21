@@ -4,8 +4,8 @@ import { FaDumbbell, FaHeart, FaShieldAlt } from "react-icons/fa";
 import { GrTarget } from "react-icons/gr";
 import masterline from "../assets/image/masterline.png";
 
-const MasterCard = (props) => {
-  const { MasterBg = require() } = props;
+const MasterCard = props => {
+  const MasterBg = props.MasterBg
   return (
     <>
       <div className="master-card mb-3">
