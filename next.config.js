@@ -7,7 +7,7 @@ const nextConfig = {
             destination: '/mynfts',
             permanent: true,
         }]
-    }
+    },
 }
 
 module.exports = nextConfig

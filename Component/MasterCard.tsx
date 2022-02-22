@@ -4,7 +4,7 @@ import { FaDumbbell, FaHeart, FaShieldAlt } from "react-icons/fa";
 import { GrTarget } from "react-icons/gr";
 import masterline from "../public/assets/image/masterline.png";
 
-const MasterCard = props => {
+const MasterCard = (props:any) => {
   const MasterBg = props.MasterBg
   return (
     <>
@@ -25,11 +25,11 @@ const MasterCard = props => {
               className="m-auto img-fluid Character-img"
             />
             <div className="px-2">
-              <Image src={masterline} className="img-fluid w-100 m-auto" />
+              <Image src={masterline.src} className="img-fluid w-100 m-auto" />
               <Card.Title className="monstaer-title color-white my-1">
                 {props.MonsterName}
               </Card.Title>
-              <Image src={masterline} className="img-fluid w-100 m-auto" />
+              <Image src={masterline.src} className="img-fluid w-100 m-auto" />
             </div>
             <Row className=" d-flex justify-content-center align-items-center g-0 mb-2 mb-sm-2 mb-md-3 mt-1 mt-sm-1 mt-md-2">
               <Col xs={6}>

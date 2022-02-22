@@ -171,33 +171,15 @@ export default function MyNFTS() {
               <Row>
                 <Col xs={12}>
                   <MasterCard
-                    MasterBg={Rare}
-                    Character={charactermodel}
+                    MasterBg={Rare.src}
+                    Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
                 <Col xs={12}>
                   <MasterCard
-                    MasterBg={Mythic}
-                    Character={charactermodel}
-                    MonsterName="Monster Name"
-                  />
-                </Col>
-              </Row>
-            </div>
-            <div>
-              <Row>
-                <Col xs={12}>
-                  <MasterCard
-                    MasterBg={low_rare}
-                    Character={charactermodel}
-                    MonsterName="Monster Name"
-                  />
-                </Col>
-                <Col xs={12}>
-                  <MasterCard
-                    MasterBg={Legendary}
-                    Character={charactermodel}
+                    MasterBg={Mythic.src}
+                    Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
@@ -207,33 +189,15 @@ export default function MyNFTS() {
               <Row>
                 <Col xs={12}>
                   <MasterCard
-                    MasterBg={Epic}
-                    Character={charactermodel}
+                    MasterBg={low_rare.src}
+                    Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
                 <Col xs={12}>
                   <MasterCard
-                    MasterBg={Common}
-                    Character={charactermodel}
-                    MonsterName="Monster Name"
-                  />
-                </Col>
-              </Row>
-            </div>
-            <div>
-              <Row>
-                <Col xs={12}>
-                  <MasterCard
-                    MasterBg={Epic}
-                    Character={charactermodel}
-                    MonsterName="Monster Name"
-                  />
-                </Col>
-                <Col xs={12}>
-                  <MasterCard
-                    MasterBg={Legendary}
-                    Character={charactermodel}
+                    MasterBg={Legendary.src}
+                    Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
@@ -243,33 +207,15 @@ export default function MyNFTS() {
               <Row>
                 <Col xs={12}>
                   <MasterCard
-                    MasterBg={low_rare}
-                    Character={charactermodel}
+                    MasterBg={Epic.src}
+                    Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
                 <Col xs={12}>
                   <MasterCard
-                    MasterBg={Mythic}
-                    Character={charactermodel}
-                    MonsterName="Monster Name"
-                  />
-                </Col>
-              </Row>
-            </div>
-            <div>
-              <Row>
-                <Col xs={12}>
-                  <MasterCard
-                    MasterBg={Rare}
-                    Character={charactermodel}
-                    MonsterName="Monster Name"
-                  />
-                </Col>
-                <Col xs={12}>
-                  <MasterCard
-                    MasterBg={Epic}
-                    Character={charactermodel}
+                    MasterBg={Common.src}
+                    Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
@@ -279,15 +225,69 @@ export default function MyNFTS() {
               <Row>
                 <Col xs={12}>
                   <MasterCard
-                    MasterBg={Mythic}
-                    Character={charactermodel}
+                    MasterBg={Epic.src}
+                    Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
                 <Col xs={12}>
                   <MasterCard
-                    MasterBg={low_rare}
-                    Character={charactermodel}
+                    MasterBg={Legendary.src}
+                    Character={charactermodel.src}
+                    MonsterName="Monster Name"
+                  />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row>
+                <Col xs={12}>
+                  <MasterCard
+                    MasterBg={low_rare.src}
+                    Character={charactermodel.src}
+                    MonsterName="Monster Name"
+                  />
+                </Col>
+                <Col xs={12}>
+                  <MasterCard
+                    MasterBg={Mythic.src}
+                    Character={charactermodel.src}
+                    MonsterName="Monster Name"
+                  />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row>
+                <Col xs={12}>
+                  <MasterCard
+                    MasterBg={Rare.src}
+                    Character={charactermodel.src}
+                    MonsterName="Monster Name"
+                  />
+                </Col>
+                <Col xs={12}>
+                  <MasterCard
+                    MasterBg={Epic.src}
+                    Character={charactermodel.src}
+                    MonsterName="Monster Name"
+                  />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row>
+                <Col xs={12}>
+                  <MasterCard
+                    MasterBg={Mythic.src}
+                    Character={charactermodel.src}
+                    MonsterName="Monster Name"
+                  />
+                </Col>
+                <Col xs={12}>
+                  <MasterCard
+                    MasterBg={low_rare.src}
+                    Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>

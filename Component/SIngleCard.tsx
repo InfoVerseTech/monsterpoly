@@ -7,7 +7,7 @@ const SIngleCard = () => {
     // <Col xs={12} sm={12} md={3} className="text-center mb-5">
     <div className="p-1 p-sm-1 p-md-3 mb-3">
       <Card className="text-center bg-transparent p-0">
-        <Card.Img src={cardbg} alt="Card image" />
+        <Card.Img src={cardbg.src} alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title></Card.Title>
           <Card.Text></Card.Text>

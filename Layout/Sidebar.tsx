@@ -1,16 +1,4 @@
-import {
-  FaChessQueen,
-  FaGift,
-  FaLandmark,
-  FaAngleDoubleUp,
-  FaCoins,
-  FaBolt,
-  FaTwitterSquare,
-  FaTelegram,
-  FaSun,
-  FaMoon,
-  FaCog,
-} from "react-icons/fa";
+import { FaChessQueen, FaGift, FaLandmark, FaAngleDoubleUp, FaCoins, FaBolt, FaTwitterSquare, FaTelegram, FaSun, FaMoon, FaCog } from "react-icons/fa";
 import { Nav, Row, Col } from "react-bootstrap";
 import DarkMode from "./DarkMode";
 import { BsDiscord } from "react-icons/bs";

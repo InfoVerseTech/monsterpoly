@@ -30,7 +30,7 @@ const LayoutHeader = props => {
           className="text-end d-none d-sm-none d-md-none d-lg-block"
         >
           <Button className="BuyButton" disabled>
-            <Image src={BuyButtonLogo} className="img-fluid" />
+            <Image src={BuyButtonLogo.src} className="img-fluid" />
             <span>Buy MPOLY</span>
             <BsBoxArrowUpRight />
           </Button>

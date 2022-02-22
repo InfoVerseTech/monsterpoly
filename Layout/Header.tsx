@@ -1,6 +1,5 @@
 import {useState} from 'react';
 import { Container, Navbar, Nav, Button, Offcanvas, Image } from "react-bootstrap";
-// import Image from 'next/image';
 import Logo from "../public/assets/image/Logo.png";
 import LogoMobile from "../public/assets/image/LogoMobile.png";
 import Mgold from "../public/assets/image/mgold.svg";
@@ -29,11 +28,11 @@ const Header = () => {
             </div>
             <Navbar.Brand href="#home">
               <Image
-                src={Logo}
+                src={Logo.src}
                 className="img-fluid d-none d-md-none d-lg-block"
               />
               <Image
-                src={LogoMobile}
+                src={LogoMobile.src}
                 className="img-fluid d-block d-md-block d-lg-none"
               />
             </Navbar.Brand>
@@ -47,16 +46,16 @@ const Header = () => {
             <Navbar.Collapse>
               <Nav className="ms-auto align-items-center">
                 <Nav.Link href="#" disabled>
-                  <Image src={Mgold} className="img-fluid me-2 navcoin" />
+                  <Image src={Mgold.src} className="img-fluid me-2 navcoin" />
                   9999
                 </Nav.Link>
                 <Nav.Link href="#" disabled>
-                  <Image src={Mgold2} className="img-fluid me-2 navcoin" />
+                  <Image src={Mgold2.src} className="img-fluid me-2 navcoin" />
                   9999
                 </Nav.Link>
                 <Button className="usernav" disabled>
                   <span>0xf0aaa0000a...</span>
-                  <Image src={UserIcon} className="img-fluid" />
+                  <Image src={UserIcon.src} className="img-fluid" />
                 </Button>
               </Nav>
             </Navbar.Collapse>
@@ -67,18 +66,18 @@ const Header = () => {
         <Offcanvas.Body>
           <div className="mob-side-head">
             <div className="mobpropsec">
-              <Image src={UserIcon} className="img-fluid profileimg" />
+              <Image src={UserIcon.src} className="img-fluid profileimg" />
               <Button className="usernav">
                 <span>0xf0aaa0000a...</span>
               </Button>
             </div>
             <Nav className="m-auto align-items-center justify-content-center px-1">
               <Nav.Link>
-                <Image src={Mgold} className="img-fluid me-2 navcoin" />
+                <Image src={Mgold.src} className="img-fluid me-2 navcoin" />
                 9999
               </Nav.Link>
               <Nav.Link>
-                <Image src={Mgold2} className="img-fluid me-2 navcoin" />
+                <Image src={Mgold2.src} className="img-fluid me-2 navcoin" />
                 9999
               </Nav.Link>
               <Nav.Link>

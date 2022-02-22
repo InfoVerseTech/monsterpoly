@@ -5,10 +5,10 @@ import CestLogo from "../public/assets/image/cesey_logo.png";
 import ChestGolden2 from "../public/assets/image/ChestGolden2.png";
 import ChestOrange2 from "../public/assets/image/ChestOrange2.png";
 import ChestOrangebw2 from "../public/assets/image/ChestOrangebw2.png";
-// import mgold from "../../assets/image/mgold.svg";
 import mpoly from "../public/assets/image/mpoly.svg";
 import stackCharacter from "../public/assets/image/stackCharacter.png";
 import { FaPlus } from "react-icons/fa";
+// import mgold from "../../assets/image/mgold.svg";
 
 const ChesBox = () => {
   return (
@@ -37,16 +37,16 @@ const ChesBox = () => {
                     </h6>
                   </div>
                   <div className="text-center my-4 contimg">
-                    <Image src={ChestOrange2} className="img-fluid" />
+                    <Image src={ChestOrange2.src} className="img-fluid" />
                     <div className="contimbox">
-                      <Image src={CestLogo} className="img-fluid" />
+                      <Image src={CestLogo.src} className="img-fluid" />
                       <br />
                       <p className="px-2">x1</p>
                     </div>
                   </div>
                   <div className="text-center">
                     <h2 className="color-white fw-bold">
-                      <Image src={mpoly} className="img-fluid coinimg" /> 0.5
+                      <Image src={mpoly.src} className="img-fluid coinimg" /> 0.5
                     </h2>
                   </div>
                 </div>
@@ -67,16 +67,16 @@ const ChesBox = () => {
                     </h6>
                   </div>
                   <div className="text-center my-4 contimg">
-                    <Image src={ChestOrangebw2} className="img-fluid" />
+                    <Image src={ChestOrangebw2.src} className="img-fluid" />
                     <div className="contimbox">
-                      <Image src={CestLogo} className="img-fluid" />
+                      <Image src={CestLogo.src} className="img-fluid" />
                       <br />
                       <p className="px-2">x1</p>
                     </div>
                   </div>
                   <div className="text-center">
                     <h2 className="color-white fw-bold">
-                      <Image src={mpoly} className="img-fluid coinimg" /> 0.5
+                      <Image src={mpoly.src} className="img-fluid coinimg" /> 0.5
                     </h2>
                   </div>
                 </div>
@@ -103,12 +103,12 @@ const ChesBox = () => {
                 </h3>
               </div>
               <div className="text-center my-5">
-                <Image src={ChestGolden2} className="img-fluid" />
+                <Image src={ChestGolden2.src} className="img-fluid" />
               </div>
               <div className="d-flex justify-content-between align-items-center mb-3">
                 <div>
                   <div className="smallimg-box">
-                    <Image src={CestLogo} className="img-fluid" />
+                    <Image src={CestLogo.src} className="img-fluid" />
                   </div>
                   <p className="tagim">x1</p>
                 </div>
@@ -117,7 +117,7 @@ const ChesBox = () => {
                 </div>
                 <div>
                   <div className="smallimg-box d-flex align-items-center">
-                    <Image src={CestGun} className="img-fluid" />
+                    <Image src={CestGun.src} className="img-fluid" />
                   </div>
                   <p className="tagim">x1</p>
                 </div>
@@ -127,7 +127,7 @@ const ChesBox = () => {
               </p>
               <div className="text-center">
                 <h2 className="color-white fw-bold mb-4">
-                  <Image src={mpoly} className="img-fluid coinimg" /> 0.5
+                  <Image src={mpoly.src} className="img-fluid coinimg" /> 0.5
                 </h2>
               </div>
             </div>
@@ -152,12 +152,12 @@ const ChesBox = () => {
                 </h3>
               </div>
               <div className="text-center my-5">
-                <Image src={ChestGolden2} className="img-fluid" />
+                <Image src={ChestGolden2.src} className="img-fluid" />
               </div>
               <div className="d-flex justify-content-between align-items-center mb-3">
                 <div>
                   <div className="smallimg-box">
-                    <Image src={CestLogo} className="img-fluid" />
+                    <Image src={CestLogo.src} className="img-fluid" />
                   </div>
                   <p className="tagim">x1</p>
                 </div>
@@ -166,7 +166,7 @@ const ChesBox = () => {
                 </div>
                 <div>
                   <div className="smallimg-box d-flex align-items-center">
-                    <Image src={CestGun} className="img-fluid" />
+                    <Image src={CestGun.src} className="img-fluid" />
                   </div>
                   <p className="tagim">x1</p>
                 </div>
@@ -176,7 +176,7 @@ const ChesBox = () => {
               </p>
               <div className="text-center">
                 <h2 className="color-white fw-bold mb-4">
-                  <Image src={mpoly} className="img-fluid coinimg" /> 0.5
+                  <Image src={mpoly.src} className="img-fluid coinimg" /> 0.5
                 </h2>
               </div>
             </div>
@@ -184,7 +184,7 @@ const ChesBox = () => {
         </Col>
       </Row>
       <div className="text-end">
-        <Image src={stackCharacter} className="img-fluid stackcrimg" />
+        <Image src={stackCharacter.src} className="img-fluid stackcrimg" />
       </div>
     </>
   );

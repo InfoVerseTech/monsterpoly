@@ -41,19 +41,19 @@ const MainLayout = ({children}:Children) => {
               className="border-bottom-0"
             ></Modal.Header>
             <Modal.Body className="text-center">
-              <Image src={WellcomeGif} className="img-fluid w-75" />
+              <Image src={WellcomeGif.src} className="img-fluid w-75" />
               <h1 className="color-white fw-bold fs-20 my-3">
-                PLEASE, USE <Image src={MetaMask_Fox} className="img-fluid" />
+                PLEASE, USE <Image src={MetaMask_Fox.src} className="img-fluid" />
                 METAMASK <br /> FOR BROWSER
               </h1>
               <Button className="Logpage-btn mb-3" onClick={handleClose}>
-                <Image src={MetaMask_Fox} className="img-fluid me-2" />
+                <Image src={MetaMask_Fox.src} className="img-fluid me-2" />
                 METAMASK
               </Button>
               <br />
 
               <Button className="Logpage-btn btn" onClick={handleClose}>
-                <Image src={WaletIcon} className="img-fluid me-2" />
+                <Image src={WaletIcon.src} className="img-fluid me-2" />
                 WALLET CONNECT
               </Button>
             </Modal.Body>

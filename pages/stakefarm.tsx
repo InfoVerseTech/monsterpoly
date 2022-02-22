@@ -1,9 +1,8 @@
-import { Row, Col, Card, Button, Form } from "react-bootstrap";
-import Image from 'next/image';
-import MGOLD2 from "../public/assets/image/MGOLD2.png";
+import { Row, Col, Card, Button, Form , Image } from "react-bootstrap";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { BsX } from "react-icons/bs";
 import stackCharacter from "../public/assets/image/stackCharacter.png";
+import MGOLD2 from "../public/assets/image/MGOLD2.png";
 import LayoutHeader from "../Component/LayoutHeader";
 import Page from "../Layout/Page";
 
@@ -38,7 +37,7 @@ export default function StakeFarm() {
                       </Card.Text>
                       <Card.Text className="color-white fs-24 fw-bold">
                         You have 0{" "}
-                        <Image src={MGOLD2} alt="" className="img-fluid" />
+                        <Image src={MGOLD2.src} alt="" className="img-fluid" />
                       </Card.Text>
                       <Card.Text className="apytitlesec">apy : 0000%</Card.Text>
                     </div>
@@ -65,13 +64,13 @@ export default function StakeFarm() {
                         Staking
                       </Card.Title>
                       <Card.Text className="color-white fs-24 fw-bold mb-2">
-                        <Image src={MGOLD2} alt="" className="img-fluid" />
+                        <Image src={MGOLD2.src} alt="" className="img-fluid" />
                       </Card.Text>
                     </div>
                     <div className="d-flex justify-content-between align-items-center">
                       <Card.Text className="color-white fs-24 fw-bold mb-0">
                         1000
-                        <Image src={MGOLD2} alt="" className="img-fluid ms-2" />
+                        <Image src={MGOLD2.src} alt="" className="img-fluid ms-2" />
                       </Card.Text>
                       <Card.Text className="color-white fs-12 fw-medium mb-0">
                         4 days to go!
@@ -81,7 +80,7 @@ export default function StakeFarm() {
                   <Card.Body className="text-center">
                     <Card.Title className="color-haiti fs-31 fw-regular mb-0">
                       30{" "}
-                      <Image src={MGOLD2} alt="" className="img-fluid mx-2" />
+                      <Image src={MGOLD2.src} alt="" className="img-fluid mx-2" />
                       to collect
                     </Card.Title>
                   </Card.Body>
@@ -121,7 +120,7 @@ export default function StakeFarm() {
                       </Button>
                       <Card.Text className="color-white fs-24 fw-bold mt-3">
                         You have 0{" "}
-                        <Image src={MGOLD2} alt="" className="img-fluid" />
+                        <Image src={MGOLD2.src} alt="" className="img-fluid" />
                       </Card.Text>
                       <Card.Text className="apytitlesec">apy : 0000%</Card.Text>
                     </div>
@@ -148,13 +147,13 @@ export default function StakeFarm() {
                         Farming
                       </Card.Title>
                       <Card.Text className="color-white fs-24 fw-bold mb-2">
-                        <Image src={MGOLD2} alt="" className="img-fluid" />
+                        <Image src={MGOLD2.src} alt="" className="img-fluid" />
                       </Card.Text>
                     </div>
                     <div className="d-flex justify-content-between align-items-center">
                       <Card.Text className="color-white fs-24 fw-bold mb-0">
                         1000
-                        <Image src={MGOLD2} alt="" className="img-fluid ms-2" />
+                        <Image src={MGOLD2.src} alt="" className="img-fluid ms-2" />
                       </Card.Text>
                       <Card.Text className="color-white fs-12 fw-medium mb-0">
                         4 days to go!
@@ -164,7 +163,7 @@ export default function StakeFarm() {
                   <Card.Body className="text-center">
                     <Card.Title className="color-haiti fs-31 fw-regular mb-0">
                       30{" "}
-                      <Image src={MGOLD2} alt="" className="img-fluid mx-2" />
+                      <Image src={MGOLD2.src} alt="" className="img-fluid mx-2" />
                       to collect
                     </Card.Title>
                   </Card.Body>
@@ -175,7 +174,7 @@ export default function StakeFarm() {
         </Col>
       </Row>
       <div className="text-end">
-        <Image src={stackCharacter} className="img-fluid stackcrimg" />
+        <Image src={stackCharacter.src} className="img-fluid stackcrimg" />
       </div>
     </Page>
   );
