@@ -25,7 +25,6 @@ const LayoutHeader = (props:any) => {
         </Col>
         <Col
           md={6}
-          md={12}
           lg={6}
           className="text-end d-none d-sm-none d-md-none d-lg-block"
         >

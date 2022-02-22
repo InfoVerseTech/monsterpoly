@@ -5,7 +5,7 @@ interface Children {
 }
 
 const DarkMode = ({children}:Children) => {
-  const toggleTheme = e => {
+  const toggleTheme = (e:any) => {
     const { checked } = e.target;
     if (checked) {
       trans();
@@ -30,7 +30,7 @@ const DarkMode = ({children}:Children) => {
           id="checkbox"
           onChange={toggleTheme}
         />
-        <label for="checkbox" className="label">
+        <label htmlFor="checkbox" className="label">
           <div className="ball"></div>
         </label>
       </div>
