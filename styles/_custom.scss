@@ -276,11 +276,18 @@
 .loginmodal {
   .modal-content {
     background-color: var(--color-haiti);
-    border-color: var(--color-white);
-    box-shadow: 0px 0px 8px -1px var(--color-navyblue);
+    border-color: var(--color-grey-mode);
+    box-shadow: 0px 0px 8px 1px var(--color-navyblue);
     .btn-close {
-      background: transparent url(../public/assets/image/Close-icon.svg) center/1em
-        auto no-repeat;
+      background: transparent url(../public/assets/image/Close-icon.svg)
+        center/1em auto no-repeat;
+      outline: none;
+      box-shadow: none;
+      &:hover,
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
     }
   }
 }
