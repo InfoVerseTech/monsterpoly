@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import ReactDOM from 'react-dom';
 import { Container, Navbar, Nav, Button, Offcanvas, Image } from "react-bootstrap";
 import Logo from "../public/assets/image/Logo.png";
 import LogoMobile from "../public/assets/image/LogoMobile.png";

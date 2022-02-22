@@ -1,8 +1,4 @@
-interface Children {
-  children: any;
-}
-
-const MainContentAnimation = ({children}:Children) => {
+const MainContentAnimation = () => {
   return (
     <>
       <div id="stars"></div>
