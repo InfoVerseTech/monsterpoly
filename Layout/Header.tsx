@@ -1,6 +1,6 @@
 import {useState} from 'react';
-import { Container, Navbar, Nav, Button, Offcanvas } from "react-bootstrap";
-import Image from 'next/image';
+import { Container, Navbar, Nav, Button, Offcanvas, Image } from "react-bootstrap";
+// import Image from 'next/image';
 import Logo from "../assets/image/Logo.png";
 import LogoMobile from "../assets/image/LogoMobile.png";
 import Mgold from "../assets/image/mgold.svg";

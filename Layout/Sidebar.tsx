@@ -1,8 +1,19 @@
-import { FaChessQueen, FaGift, FaLandmark, FaAngleDoubleUp, FaCoins, FaBolt, FaTwitterSquare, FaTelegram, FaSun, FaMoon, FaCog } from "react-icons/fa";
+import {
+  FaChessQueen,
+  FaGift,
+  FaLandmark,
+  FaAngleDoubleUp,
+  FaCoins,
+  FaBolt,
+  FaTwitterSquare,
+  FaTelegram,
+  FaSun,
+  FaMoon,
+  FaCog,
+} from "react-icons/fa";
 import { Nav, Row, Col } from "react-bootstrap";
 import DarkMode from "./DarkMode";
 import { BsDiscord } from "react-icons/bs";
-import Link from "next/link";
 
 const Sidebar = () => {
   return (
@@ -11,61 +22,47 @@ const Sidebar = () => {
         <div className="sidebar-menu">
           <Nav className="flex-column">
             <Nav.Item className="item">
-              <Link href="/mynfts">
-                <Nav.Link className="menu-btn">
+              <Nav.Link href="/mynfts" className="menu-btn">
                 <FaChessQueen className="sidebar-icons" />
                 <span>MY NFTS</span>
-                </Nav.Link>
-              </Link>
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Link href="/chestshop" className="nav-link menu-btn">
-                <Nav.Link className="menu-btn">
+              <Nav.Link href="/chestshop" className="menu-btn">
                 <FaGift className="sidebar-icons" />
                 <span>CHEST SHOP</span>
-                </Nav.Link>
-              </Link>
+              </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="item">
-              <Link href="/marketplace" className="nav-link menu-btn">
-                <Nav.Link className="menu-btn">
+              <Nav.Link href="/marketplace" className="menu-btn">
                 <FaLandmark className="sidebar-icons" />
                 <span>MARKETPLACE</span>
-                </Nav.Link>
-              </Link>
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Link href="/training" className="nav-link menu-btn">
-                <Nav.Link className="menu-btn">
+              <Nav.Link href="/training" className="menu-btn">
                 <FaAngleDoubleUp className="sidebar-icons" />
                 <span>TRAINING</span>
-                </Nav.Link>
-                </Link>
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Link href="/stakefarm" className="nav-link menu-btn">
-                <Nav.Link className="menu-btn">
+              <Nav.Link href="/stakefarm" className="menu-btn">
                 <FaCoins className="sidebar-icons" />
                 <span>STAKE / FARM</span>
-                </Nav.Link>
-              </Link>
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Link href="/fusion" className="nav-link menu-btn">
-                <Nav.Link className="menu-btn">
+              <Nav.Link href="/fusion" className="menu-btn">
                 <FaBolt className="sidebar-icons" />
                 <span>FUSION</span>
-                </Nav.Link>
-              </Link>
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Link href="/stakefarm" className="nav-link menu-btn">
-                <Nav.Link className="menu-btn">
+              <Nav.Link href="/stakefarm" className="menu-btn">
                 <FaCog className="sidebar-icons" />
                 <span>setting</span>
-                </Nav.Link>
-              </Link>
+              </Nav.Link>
             </Nav.Item>
           </Nav>
           <div className="sidebar-footer">
@@ -116,6 +113,6 @@ const Sidebar = () => {
       </div>
     </>
   );
-}
+};
 
 export default Sidebar;
