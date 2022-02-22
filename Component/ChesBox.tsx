@@ -1,13 +1,13 @@
 import React from "react";
 import { Image, Row, Col } from "react-bootstrap";
-import CestGun from "../assets/image/cesey_gun.png";
-import CestLogo from "../assets/image/cesey_logo.png";
-import ChestGolden2 from "../assets/image/ChestGolden2.png";
-import ChestOrange2 from "../assets/image/ChestOrange2.png";
-import ChestOrangebw2 from "../assets/image/ChestOrangebw2.png";
+import CestGun from "../public/assets/image/cesey_gun.png";
+import CestLogo from "../public/assets/image/cesey_logo.png";
+import ChestGolden2 from "../public/assets/image/ChestGolden2.png";
+import ChestOrange2 from "../public/assets/image/ChestOrange2.png";
+import ChestOrangebw2 from "../public/assets/image/ChestOrangebw2.png";
 // import mgold from "../../assets/image/mgold.svg";
-import mpoly from "../assets/image/mpoly.svg";
-import stackCharacter from "../assets/image/stackCharacter.png";
+import mpoly from "../public/assets/image/mpoly.svg";
+import stackCharacter from "../public/assets/image/stackCharacter.png";
 import { FaPlus } from "react-icons/fa";
 
 const ChesBox = () => {

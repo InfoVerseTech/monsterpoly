@@ -11,7 +11,7 @@
       border: 1px solid var(--color-meteorite);
       padding: 0.38rem 0.5rem;
       text-align: left;
-      background-image: url(../assets/image/arrow-up.svg);
+      background-image: url(../public/assets/image/arrow-up.svg);
       background-repeat: no-repeat;
       background-size: 10px;
       background-position: 90% 17px;
@@ -24,7 +24,7 @@
       &.active {
         border-color: #c599f1;
         box-shadow: 0 0 0 0.25rem rgb(147 95 207 / 29%);
-        background-image: url(../assets/image/arrow-down.svg);
+        background-image: url(../public/assets/image/arrow-down.svg);
       }
       &::after {
         display: none;
@@ -45,7 +45,7 @@
       &::before {
         position: absolute;
         content: " ";
-        background-image: url(../assets/image/arrowup-blue.svg);
+        background-image: url(../public/assets/image/arrowup-blue.svg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center;
@@ -170,18 +170,18 @@
   }
   .slick-prev {
     left: 44%;
-    background-image: url(../assets/image/previous-grey.png);
+    background-image: url(../public/assets/image/previous-grey.png);
     &:hover,
     &:focus {
-      background-image: url(../assets/image/previous-blue.png);
+      background-image: url(../public/assets/image/previous-blue.png);
     }
   }
 
   .slick-next {
-    background-image: url(../assets/image/next-grey.png);
+    background-image: url(../public/assets/image/next-grey.png);
     &:hover,
     &:focus {
-      background-image: url(../assets/image/next-blue.png);
+      background-image: url(../public/assets/image/next-blue.png);
     }
   }
 }
@@ -190,7 +190,7 @@
 .chestbox2 {
   padding: 20px 35px 10px;
   width: 100%;
-  background-image: url(../assets/image/regular-combo-box.png);
+  background-image: url(../public/assets/image/regular-combo-box.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -225,7 +225,7 @@
   }
 }
 .chestbox1 {
-  background-image: url(../assets/image/regular-box.png);
+  background-image: url(../public/assets/image/regular-box.png);
   padding: 12px 35px 15px;
   h3 {
     text-shadow: 2px 2px 0px var(--color-electricviolet);
@@ -262,7 +262,7 @@
   }
 }
 .chestbox2 {
-  background-image: url(../assets/image/vip-combo-box.png);
+  background-image: url(../public/assets/image/vip-combo-box.png);
   h3 {
     text-shadow: 2px 2px 0px var(--color-navyblue);
   }
@@ -279,7 +279,7 @@
     border-color: var(--color-white);
     box-shadow: 0px 0px 8px -1px var(--color-navyblue);
     .btn-close {
-      background: transparent url(../assets/image/Close-icon.svg) center/1em
+      background: transparent url(../public/assets/image/Close-icon.svg) center/1em
         auto no-repeat;
     }
   }
@@ -291,7 +291,7 @@
   margin: 0 auto 20px;
   .card {
     padding: 0;
-    background-image: url(../assets/gif/Common.gif);
+    background-image: url(../public/assets/gif/Common.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-bottom: 10px;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Button, Dropdown, DropdownButton, Form, Image } from "react-bootstrap";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import BuyButtonLogo from "../assets/image/mpoly.svg";
+import BuyButtonLogo from "../public/assets/image/mpoly.svg";
 import { FaTimes } from "react-icons/fa";
 
 const LayoutHeader = props => {

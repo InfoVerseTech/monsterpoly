@@ -3,9 +3,9 @@ import { Container, Button, Modal } from "react-bootstrap";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import MainContentAnimation from "./MainContentAnimation";
-import WellcomeGif from "../assets/gif/wellcome.gif";
-import MetaMask_Fox from "../assets/image/MetaMask_Fox.svg";
-import WaletIcon from "../assets/image/walleteconecticons.svg";
+import WellcomeGif from "../public/assets/gif/wellcome.gif";
+import MetaMask_Fox from "../public/assets/image/MetaMask_Fox.svg";
+import WaletIcon from "../public/assets/image/walleteconecticons.svg";
 import Image from 'next/image';
 
 interface Children {
@@ -24,7 +24,6 @@ const MainLayout = ({children}:Children) => {
         <Sidebar />
         <div className="main-container pt-4 pb-5 pb-3">
           <MainContentAnimation />
-
           <div className="mainpage">
             <Container fluid>{children}</Container>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Card, Button } from "react-bootstrap";
-import cardbg from "../assets/image/cardbg.gif";
+import cardbg from "../public/assets/image/cardbg.gif";
 
 const SIngleCard = () => {
   return (

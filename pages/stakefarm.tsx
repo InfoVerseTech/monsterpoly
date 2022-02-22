@@ -1,9 +1,9 @@
 import { Row, Col, Card, Button, Form } from "react-bootstrap";
 import Image from 'next/image';
-import MGOLD2 from "../assets/image/MGOLD2.png";
+import MGOLD2 from "../public/assets/image/MGOLD2.png";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { BsX } from "react-icons/bs";
-import stackCharacter from "../assets/image/stackCharacter.png";
+import stackCharacter from "../public/assets/image/stackCharacter.png";
 import LayoutHeader from "../Component/LayoutHeader";
 import Page from "../Layout/Page";
 

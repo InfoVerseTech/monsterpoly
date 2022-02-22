@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Card, Button, Image } from "react-bootstrap";
 import { FaDumbbell, FaHeart, FaShieldAlt } from "react-icons/fa";
 import { GrTarget } from "react-icons/gr";
-import masterline from "../assets/image/masterline.png";
+import masterline from "../public/assets/image/masterline.png";
 
 const MasterCard = props => {
   const MasterBg = props.MasterBg

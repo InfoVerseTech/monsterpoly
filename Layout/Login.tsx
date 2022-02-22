@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "next/link";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
-import WellcomeGif from "../assets/gif/wellcome.gif";
-import MetaMask_Fox from "../assets/image/MetaMask_Fox.svg";
+import WellcomeGif from "../public/assets/gif/wellcome.gif";
+import MetaMask_Fox from "../public/assets/image/MetaMask_Fox.svg";
 
 const Login = () => {
   return (
