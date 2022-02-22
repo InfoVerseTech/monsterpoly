@@ -4,7 +4,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import BuyButtonLogo from "../public/assets/image/mpoly.svg";
 import { FaTimes } from "react-icons/fa";
 
-const LayoutHeader = props => {
+const LayoutHeader = (props:any) => {
   return (
     <div>
       <Row className="d-flex justify-content-between align-items-center mb-3">
