@@ -80,7 +80,7 @@ const Sidebar = () => {
             <Row className=" d-flex justify-content-between align-items-center m-0 mt-2 pt-1">
               <Col className="ps-0">
                 <Nav className="d-flex justify-content-center align-items-center">
-                  <Nav.Link href="#">9999$</Nav.Link>
+                  <Nav.Link href="#" className="color-white fw-medium">9999$</Nav.Link>
                 </Nav>
               </Col>
               <Col className="pe-0 sidfotlang">
