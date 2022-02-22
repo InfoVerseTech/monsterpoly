@@ -2,52 +2,55 @@ import { FaChessQueen, FaGift, FaLandmark, FaAngleDoubleUp, FaCoins, FaBolt, FaT
 import { Nav, Row, Col } from "react-bootstrap";
 import DarkMode from "./DarkMode";
 import { BsDiscord } from "react-icons/bs";
+import { useRouter } from 'next/router'
 
 const Sidebar = () => {
+  const router = useRouter()
+  const currentRoute = router.pathname
   return (
     <>
       <div className="sidebar mobile-side-menu">
         <div className="sidebar-menu">
           <Nav className="flex-column">
-            <Nav.Item className="item">
-              <Nav.Link href="/mynfts" className="menu-btn">
+            <Nav.Item className="item" >
+              <Nav.Link href="/mynfts" className={currentRoute === '/mynfts' ? 'active menu-btn' : 'menu-btn'}>
                 <FaChessQueen className="sidebar-icons" />
                 <span>MY NFTS</span>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Nav.Link href="/chestshop" className="menu-btn">
+              <Nav.Link href="/chestshop" className={currentRoute === '/chestshop' ? 'active menu-btn' : 'menu-btn'}>
                 <FaGift className="sidebar-icons" />
                 <span>CHEST SHOP</span>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="item">
-              <Nav.Link href="/marketplace" className="menu-btn">
+              <Nav.Link href="/marketplace" className={currentRoute === '/marketplace' ? 'active menu-btn' : 'menu-btn'}>
                 <FaLandmark className="sidebar-icons" />
                 <span>MARKETPLACE</span>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Nav.Link href="/training" className="menu-btn">
+              <Nav.Link href="/training" className={currentRoute === '/training' ? 'active menu-btn' : 'menu-btn'}>
                 <FaAngleDoubleUp className="sidebar-icons" />
                 <span>TRAINING</span>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Nav.Link href="/stakefarm" className="menu-btn">
+              <Nav.Link href="/stakefarm" className={currentRoute === '/stakefarm' ? 'active menu-btn' : 'menu-btn'}>
                 <FaCoins className="sidebar-icons" />
                 <span>STAKE / FARM</span>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Nav.Link href="/fusion" className="menu-btn">
+              <Nav.Link href="/fusion" className={currentRoute === '/fusion' ? 'active menu-btn' : 'menu-btn'}>
                 <FaBolt className="sidebar-icons" />
                 <span>FUSION</span>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="item">
-              <Nav.Link href="/stakefarm" className="menu-btn">
+              <Nav.Link href="/" className={currentRoute === '/' ? 'active menu-btn' : 'menu-btn'}>
                 <FaCog className="sidebar-icons" />
                 <span>setting</span>
               </Nav.Link>
