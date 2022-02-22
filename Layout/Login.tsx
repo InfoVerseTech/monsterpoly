@@ -21,8 +21,8 @@ const Login = () => {
             </h1>
             <Button className="Logpage-btn mb-3">METAMASK</Button>
             <br />
-            <Link className="Logpage-btn btn" to="/mynfts">
-              <p>WALLET CONNECT</p>
+            <Link href="/mynfts"> 
+              <p className="Logpage-btn btn">WALLET CONNECT</p>
             </Link>
           </Col>
         </Row>

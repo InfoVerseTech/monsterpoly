@@ -1,10 +1,6 @@
 import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 
-interface Children {
-  children: any;
-}
-
-const DarkMode = ({children}:Children) => {
+const DarkMode = () => {
   const toggleTheme = (e:any) => {
     const { checked } = e.target;
     if (checked) {

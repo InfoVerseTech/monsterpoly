@@ -14,11 +14,11 @@ const Header = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const toggleLayout = (e:any) => {
+  /*const toggleLayout = (e:any) => {
     ReactDOM.findDOMNode(document.documentElement)
       .getElementsByClassName("wrapper")[0]
       .classList.toggle("Layoutcollapse");
-  };
+  };*/
   return (
     <>
       <header className="header pt-1">

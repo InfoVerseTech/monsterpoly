@@ -211,14 +211,14 @@ export default function Marketplace() {
           <Slider className="Single-card-sliders pb-5" {...settings}>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Rare.src}
                     Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Mythic.src}
                     Character={charactermodel.src}
@@ -229,14 +229,14 @@ export default function Marketplace() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={low_rare.src}
                     Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Legendary.src}
                     Character={charactermodel.src}
@@ -247,14 +247,14 @@ export default function Marketplace() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Epic.src}
                     Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Common.src}
                     Character={charactermodel.src}
@@ -265,14 +265,14 @@ export default function Marketplace() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Epic.src}
                     Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Legendary.src}
                     Character={charactermodel.src}
@@ -283,14 +283,14 @@ export default function Marketplace() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={low_rare.src}
                     Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Mythic.src}
                     Character={charactermodel.src}
@@ -301,14 +301,14 @@ export default function Marketplace() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Rare.src}
                     Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Epic.src}
                     Character={charactermodel.src}
@@ -319,14 +319,14 @@ export default function Marketplace() {
             </div>
             <div>
               <Row>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={Mythic.src}
                     Character={charactermodel.src}
                     MonsterName="Monster Name"
                   />
                 </Col>
-                <Col x={12}>
+                <Col xs={12}>
                   <MasterCard
                     MasterBg={low_rare.src}
                     Character={charactermodel.src}
