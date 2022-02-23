@@ -21,12 +21,11 @@ const MainLayout = (props: any) => {
         <div className="main-container pt-4 pb-5 pb-3">
           <MainContentAnimation />
           <div className="mainpage">
-            <Button variant="primary" onClick={handleShow}>
-              Launch static backdrop modal
-            </Button>
             <Container fluid>{Children}</Container>
           </div>
-
+            {/* <Button variant="primary" onClick={handleShow}>
+              Launch static backdrop modal
+            </Button> */}
           <Modal
             show={show}
             onHide={handleClose}
